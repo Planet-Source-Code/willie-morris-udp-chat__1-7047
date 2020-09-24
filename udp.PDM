@@ -1,0 +1,90 @@
+[Root]
+Most Recent Package=UDPCHAT
+
+
+[Package|UDPCHAT|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\Package
+
+[Package|UDPCHAT|Configure DAO ISAMs]
+Applicable=No
+
+[Package|UDPCHAT|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|UDPCHAT|Files Found]
+
+[Package|UDPCHAT|Files Released]
+
+[Package|UDPCHAT|Missing Dependency Information]
+
+[Package|UDPCHAT|Out-of-Date Dependency Information]
+
+[Package|UDPCHAT|Files Added]
+
+[Package|UDPCHAT|Files Removed]
+
+[Package|UDPCHAT|Files In Project]
+C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\UDPChat.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\OlePro32.dll=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|UDPCHAT|Configure Registry Files]
+Applicable=No
+
+[Package|UDPCHAT|Configure Remote Servers]
+Applicable=No
+
+[Package|UDPCHAT|Install Locations]
+C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\UDPChat.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OlePro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSWINSCK.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|UDPCHAT|Configure Shared Files]
+Applicable=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\UDPChat.exe=No
+
+[Package|UDPCHAT|Distribution]
+Type=single
+Size=
+Title=Willie's UDP Chat
+
+[Package|UDPCHAT|IconGroups]
+Group0=$(Start Menu)
+PrivateGroup0=True
+Parent0=
+
+[Package|UDPCHAT|$(Start Menu)]
+Icon1=UDPChat.exe
+Title1=Willie's UDP Chat
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|UDPCHAT|Package]
+PackageFolder=C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\Package
+ProjectFolder=C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat
+ServerSideCab=
+File1=C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\Package\setup.exe
+File2=C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\Package\Setup.Lst
+File3=C:\Program Files\Microsoft Visual Studio\VB98\UDP Chat\Package\UDPChat.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
